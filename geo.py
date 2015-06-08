@@ -4,7 +4,7 @@ from county_geo import county_geo, county_geo_dictionary, county_fips
 from sklearn.externals import joblib
 
 def in_polygon(point, poly):
-    """Return True of point is in polygon path"""
+    """Return True if point is in polygon path"""
     x = point[0]
     y = point[1]
     n = len(poly)
